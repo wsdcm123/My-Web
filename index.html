@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>万圣节专题介绍</title>
+  <meta name="description" content="探索万圣节的起源、传统习俗和有趣活动">
+  <meta name="keywords" content="万圣节, Halloween, 南瓜灯, 不给糖就捣蛋, 节日起源">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- 万圣节装饰背景 -->
+<div class="halloween-background">
+  <div class="pumpkin-decoration" id="pumpkin2"></div>
+  <div class="bat-decoration" id="bat1"></div>
+  
+  <!-- 添加新的鬼魂和小蝙蝠 -->
+  <div class="ghost-decoration" id="ghost1"></div>
+  <div class="ghost-decoration" id="ghost2"></div>
+  <div class="ghost-decoration" id="ghost3"></div>
+  <div class="ghost-decoration" id="ghost4"></div>
+  
+  <div class="small-bat" id="small-bat1"></div>
+  <div class="small-bat" id="small-bat2"></div>
+  <div class="small-bat" id="small-bat3"></div>
+  <div class="small-bat" id="small-bat4"></div>
+  <div class="small-bat" id="small-bat5"></div>
+  <div class="small-bat" id="small-bat6"></div>
+</div>
+
+  <!-- 导航栏 -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="web/index.html" class="logo">
+        <i class="fas fa-ghost"></i> Halloween
+      </a>
+      <ul class="nav-menu">
+        <li><a href="web/index.html"><i class="fas fa-home"></i> 首页</a></li>
+        <li><a href="web/history.html"><i class="fas fa-history"></i> 历史起源</a></li>
+        <li><a href="web/activities.html"><i class="fas fa-broom"></i> 节日活动</a></li>
+        <li><a href="web/customs.html"><i class="fas fa-mask"></i> 传统习俗</a></li>
+        <li><a href="web/gallery.html"><i class="fas fa-camera"></i> 图片展示</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="切换导航">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </nav>
+
+  <!-- 主内容区域 -->
+  <main class="container">
+    <!-- 标题区域 -->
+    <header class="hero-section">
+      <h1 class="title creepster-font">万圣节 Halloween</h1>
+      <p class="subtitle">探索这个充满神秘与欢乐的西方传统节日</p>
+      <div class="spooky-icon" aria-hidden="true">
+        <i class="fas fa-skull-crossbones"></i>
+        <i class="fas fa-spider"></i>
+        <i class="fas fa-cat"></i>
+        <i class="fas fa-hat-wizard"></i>
+        <i class="fas fa-ghost"></i>
+      </div>
+    </header>
+
+    <!-- 节日介绍部分 -->
+    <section class="section" id="introduction">
+      <h2 class="section-title">
+        <i class="fas fa-moon"></i> 万圣节介绍
+      </h2>
+      <div class="content-box">
+        <div class="text-content">
+          <p>万圣节（Halloween）是每年10月31日庆祝的西方传统节日，尤其在英语国家如美国、加拿大、英国、爱尔兰等地最为盛行。</p>
+          <p>这个节日也被称为"诸圣节前夜"，源自古代凯尔特人的萨温节（Samhain），标志着夏季的结束和冬季的开始。</p>
+          <p>现代万圣节的特点是各种恐怖主题的装饰、化装舞会、南瓜灯雕刻、"不给糖就捣蛋"的儿童活动以及讲述鬼故事等。</p>
+          <p>万圣节前夜，人们相信亡灵会返回人间，因此会点燃篝火、穿上奇装异服来驱赶鬼魂，这一传统演变成了今天的化装习俗。</p>
+        </div>
+        <div class="image-content">
+          <img src="image/main.jpg" alt="万圣节南瓜灯" class="section-img">
+          <div class="image-caption">万圣节标志性的南瓜灯</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 特色预览 -->
+    <section class="section dark-section">
+      <h2 class="section-title">
+        <i class="fas fa-star"></i> 网站特色
+      </h2>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-book-open"></i>
+          </div>
+          <h3>历史起源</h3>
+          <p>深入了解万圣节从古代凯尔特人到现代的演变过程</p>
+          <a href="web/history.html" class="feature-link">了解更多 →</a>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-gamepad"></i>
+          </div>
+          <h3>节日活动</h3>
+          <p>探索各种有趣的万圣节传统游戏和庆祝活动</p>
+          <a href="web/activities.html" class="feature-link">了解更多 →</a>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-hat-wizard"></i>
+          </div>
+          <h3>传统习俗</h3>
+          <p>了解世界各地不同的万圣节传统和象征意义</p>
+          <a href="web/customs.html" class="feature-link">了解更多 →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 万圣节倒计时 -->
+    <section class="section">
+      <h2 class="section-title">
+        <i class="fas fa-hourglass-half"></i> 万圣节倒计时
+      </h2>
+      <div class="countdown">
+        <div class="countdown-item">
+          <div class="countdown-number" id="days">00</div>
+          <div class="countdown-label">天</div>
+        </div>
+        <div class="countdown-item">
+          <div class="countdown-number" id="hours">00</div>
+          <div class="countdown-label">小时</div>
+        </div>
+        <div class="countdown-item">
+          <div class="countdown-number" id="minutes">00</div>
+          <div class="countdown-label">分钟</div>
+        </div>
+        <div class="countdown-item">
+          <div class="countdown-number" id="seconds">00</div>
+          <div class="countdown-label">秒</div>
+        </div>
+      </div>
+      <p class="countdown-text">距离下一个万圣节还有</p>
+    </section>
+  </main>
+
+  <!-- 页脚 -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-logo">
+        <i class="fas fa-ghost"></i> Halloween
+      </div>
+      <p>探索万圣节的神秘世界 | 一个充满传统与欢乐的节日</p>
+      <div class="social-icons">
+        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+      </div>
+      <div class="page-links">
+        <a href="web/index.html">首页</a> | 
+        <a href="web/history.html">历史起源</a> | 
+        <a href="web/activities.html">节日活动</a> | 
+        <a href="web/customs.html">传统习俗</a> | 
+        <a href="web/gallery.html">图片展示</a>
+  </footer>      
+
+  <!-- 返回顶部按钮 -->
+  <button class="scroll-top" id="scrollTop" aria-label="返回顶部">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script>
+    // 共享的JavaScript功能
+    (function () {
+      // DOM
+      const daysEl = document.getElementById('days');
+      const hoursEl = document.getElementById('hours');
+      const minutesEl = document.getElementById('minutes');
+      const secondsEl = document.getElementById('seconds');
+      const scrollTopBtn = document.getElementById('scrollTop');
+      const navToggle = document.getElementById('navToggle');
+      const navMenu = document.querySelector('.nav-menu');
+
+      // 计算下一个万圣节
+      function nextHalloween() {
+        const now = new Date();
+        const year = now.getFullYear();
+        let target = new Date(year, 9, 31, 0, 0, 0);
+        if (now > target) target = new Date(year + 1, 9, 31, 0, 0, 0);
+        return target;
+      }
+
+      // 更新倒计时
+      function updateCountdown() {
+        if (daysEl && hoursEl && minutesEl && secondsEl) {
+          const t = nextHalloween().getTime() - Date.now();
+          if (t <= 0) {
+            daysEl.textContent = '00';
+            hoursEl.textContent = '00';
+            minutesEl.textContent = '00';
+            secondsEl.textContent = '00';
+            return;
+          }
+          const s = Math.floor(t / 1000);
+          const days = Math.floor(s / 86400);
+          const hours = Math.floor((s % 86400) / 3600);
+          const minutes = Math.floor((s % 3600) / 60);
+          const seconds = s % 60;
+          
+          daysEl.textContent = String(days).padStart(2,'0');
+          hoursEl.textContent = String(hours).padStart(2,'0');
+          minutesEl.textContent = String(minutes).padStart(2,'0');
+          secondsEl.textContent = String(seconds).padStart(2,'0');
+        }
+      }
+
+      // 导航折叠
+      if (navToggle) {
+        navToggle.addEventListener('click', function () {
+          navMenu.classList.toggle('open');
+        });
+      }
+
+      // 返回顶部按钮
+      window.addEventListener('scroll', function () {
+        if (scrollTopBtn) {
+          if (window.scrollY > 300) {
+            scrollTopBtn.style.display = 'flex';
+          } else {
+            scrollTopBtn.style.display = 'none';
+          }
+        }
+      });
+
+      if (scrollTopBtn) {
+        scrollTopBtn.addEventListener('click', function () {
+          window.scrollTo({top: 0, behavior: 'smooth'});
+        });
+      }
+
+      // 初始调用倒计时
+      if (daysEl) {
+        updateCountdown();
+        setInterval(updateCountdown, 1000);
+      }
+
+      // 关闭菜单
+      document.addEventListener('click', function (e) {
+        if (navMenu && navToggle && !navToggle.contains(e.target) && !navMenu.contains(e.target)) {
+          navMenu.classList.remove('open');
+        }
+      });
+    })();
+  </script>
+</body>
+</html>
